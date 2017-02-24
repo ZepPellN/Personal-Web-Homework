@@ -1,0 +1,284 @@
+.has-error .form-control-feedback, .has-error .control-label {
+    color: #EB5E28;
+}
+
+.has-success .form-control-feedback, .has-success .control-label {
+    color: #7AC29A;
+}
+.form-control{
+
+    margin:0 auto;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.bootstrap-select.form-control {
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+}
+
+.bootstrap-select.form-control:not([class*="col-"]) {
+    width: 100%;
+}
+
+.bootstrap-select.form-control.input-group-btn {
+    z-index: auto;
+}
+.form-group-lg .bootstrap-select.btn-group.form-control,
+.form-group-sm .bootstrap-select.btn-group.form-control {
+    padding: 0;
+}
+
+.form-inline .bootstrap-select.btn-group .form-control {
+    width: 100%;
+}
+.form-control{
+    margin-bottom:0;
+    width:100%;
+    float:none;
+}
+.form-control{
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.form-control::-moz-placeholder {
+    color: #cfcfca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control:-moz-placeholder {
+    color: #cfcfca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #cfcfca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control:-ms-input-placeholder {
+    color: #cfcfca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control {
+    background-color: #F3F2EE;
+    border: 1px solid #e8e7e3;
+    border-radius: 4px;
+    color: #66615b;
+    font-size: 14px;
+    padding: 7px 18px;
+    height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-control:focus {
+    border: 1px solid #e8e7e3;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important;
+}
+.has-success .form-control, .has-error .form-control, .has-success .form-control:focus, .has-error .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.has-success .form-control, .form-control.valid {
+    color: #66615b;
+    border-color: #e8e7e3;
+}
+.has-success .form-control:focus, .form-control.valid:focus {
+    background-color: #FFFFFF;
+    border-color: #7AC29A;
+}
+.has-error .form-control, .form-control.error {
+    background-color: #FFC0A4;
+    color: #EB5E28;
+    border-color: #EB5E28;
+}
+.has-error .form-control:focus, .form-control.error:focus {
+    background-color: #FFFFFF;
+    border-color: #EB5E28;
+}
+.form-control + .form-control-feedback {
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: -7px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    vertical-align: middle;
+}
+.open .form-control {
+    border-bottom-color: transparent;
+}
+.form-control.input-no-border {
+    border: 0 none;
+}
+.input-group .form-control:not(:first-child):not(:last-child) {
+    border-left: 0;
+    border-right: 0;
+}
+
+.input-lg {
+    height: 55px;
+    padding: 11px 30px;
+}
+
+.has-error .form-control-feedback, .has-error .control-label {
+    color: #EB5E28;
+}
+
+.has-success .form-control-feedback, .has-success .control-label {
+    color: #7AC29A;
+}
+.has-error .form-control:focus + .input-group-addon {
+    color: #EB5E28;
+}
+.has-success .form-control:focus + .input-group-addon {
+    color: #7AC29A;
+}
+.form-control:focus + .input-group-addon, .form-control:focus ~ .input-group-addon {
+    background-color: #FFFFFF;
+}
+.has-error .input-group-addon {
+    color: #EB5E28;
+    border-color: #EB5E28;
+}
+.has-error .input-group-addon {
+    color: #7AC29A;
+    border-color: #7AC29A;
+}
+.input-group-addon + .form-control {
+    padding-left: 0;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group[disabled] .input-group-addon {
+    background-color: #E3E3E3;
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-right: 0 none;
+}
+
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child) {
+    border-left: 0 none;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #E3E3E3;
+    cursor: not-allowed;
+    color: #9A9A9A;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control[disabled]::-moz-placeholder {
+    color: #9A9A9A;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control[disabled]:-moz-placeholder {
+    color: #cfcfca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control[disabled]::-webkit-input-placeholder {
+    color: #cfcfca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.form-control[disabled]:-ms-input-placeholder {
+    color: #cfcfca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.input-group-btn .btn {
+    border-width: 1px;
+    padding: 9px 18px;
+}
+
+.input-group-btn .btn-default:not(.btn-fill) {
+    border-color: #cfcfca;
+}
+
+.input-group-btn:last-child > .btn {
+    margin-left: 0;
+}
+
+textarea.form-control {
+    max-width: 100%;
+    padding: 10px 18px;
+    resize: none;
+}
+.form-control + .form-control-feedback {
+    margin-top: -8px;
+}
+.column-sizing .form-control {
+    margin-bottom: 15px;
+}
+star {
+    color: #EB5E28;
+    padding-left: 3px;
+}
+
+@media (min-width: 992px) {
+    .form-horizontal .control-label {
+        padding-top: 12px !important;
+    }
+    .form-horizontal code {
+        margin-top: 8px;
+        display: inline-block;
+    }
+}
+.card-footer{
+    position: relative;
+    z-index: 3;
+}
+.card .card-footer {
+    padding: 0 15px 15px;
+}
+.card .card-footer .social-line .btn:first-child {
+    border-radius: 0 0 0 6px;
+}
+.card .card-footer .social-line .btn:last-child {
+    border-radius: 0 0 6px 0;
+}
+.card .card-footer hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card .card-footer > .form-group {
+    margin-bottom: 0;
+}
+.card .card-footer .footer-title {
+    padding-top: 5px;
+    display: inline-block;
+}
+.card-chat .card-footer {
+    padding: 0;
+    float: right;
+}
